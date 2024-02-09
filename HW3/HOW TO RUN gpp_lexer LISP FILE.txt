@@ -1,0 +1,5 @@
+1-) In sbcl or clisp run the commands below:
+load "gpp_interpreter.lisp"
+
+2-) Call (gppinterpreter), and enter your input line by line.
+    Or call (gppinterpreter "input_file.txt"), the input file will be interpreted directly.

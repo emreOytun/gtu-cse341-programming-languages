@@ -1,0 +1,17 @@
+Creating C File From .lex and .yacc Files:
+1) lex gpp_lexer.l
+2) yacc -d gpp_interpreter.y
+3) Change .c file names to "gpp_lexer.c" and "gpp_interpreter.c"
+
+Compiling C Files:
+1) gcc gpp_lexer.c gpp_interpreter.c -o gpp OR
+   gcc gpp_lexer.c gpp_interpreter.c
+
+Usage:
+1-) If you want to enter input from terminal just compile and run the c file. 
+.\gpp OR 
+.\a.out
+2-) If you want to enter input from file, you should enter your input file name as extra argument when executing like:
+.\gpp "example_input.txt" OR 
+.\a.out "example_input.txt"
+

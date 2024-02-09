@@ -1,0 +1,15 @@
+HOW TO RUN "gpp_lexer.c" FILE:
+------------------------------------
+
+1-) If you want to enter INPUT FROM TERMINAL just compile and run the c file.
+2-) If you want to enter INPUT FROM FILE, you should enter your input file name as extra argument when executing like:
+.\a.out "example_input.txt"
+
+
+
+HOW TO RUN "gpp_lexer.lisp" FILE:
+------------------------------------
+
+1-) Load the "gpp_lexer.lisp" into interpreter. 
+2-) Call (gppinterpreter), and start enter your INPUT FROM TERMINAL.
+    Or Call (gppinterpreter "input_file.txt") to get the INPUT FROM FILE.
