@@ -1,5 +1,5 @@
 # GTU CSE341 Programming Languages
-The assignments given in Gebze Technical University CSE341 Programming Languages
+The assignments given in Gebze Technical University CSE341 Programming Languages including my own interpreter
 
 # Grades
 | Homework | Grade |
